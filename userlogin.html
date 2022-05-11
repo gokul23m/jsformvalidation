@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./userlogin.css">
+    <link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    
+    <title>Document</title>
+</head>
+<body >
+    <h1 style="text-align:center" > E - pay </h1>
+    <form id="form"  class="form" >
+          <div class="img_container">
+        <img  class="center" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTIrxPSJI-uVlJtW6uLDwKFu13Ys9rqfpjo_w&usqp=CAUalt=" alt="login image" >
+         </div>
+         <div class="container">
+             <div class="formcontrol">
+         <label  for="fname">Username</label><br>
+         <input  type="text" id="username" placeholder="enter  Username" ><i class="ion-ios-checkmark" ></i>
+         <i class="ion-android-alert"></i><br>
+         <small>Error message</small><br><br>
+         </div>
+         <div class="formcontrol">
+         <label  for="pwd">password</label><br>     
+         <input  type="password" id="password"  />
+         <i class="ion-ios-checkmark" ></i> 
+         <i class="ion-android-alert"></i><br>
+         <small>Error message</small><br>
+         </div>
+         <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+         </label><br>
+        <button  type="submit" id="submit" name="submit" >LOGIN</button>
+       </div>
+       <div style="background-color: grey;">
+       <button onclick="window.close();" type="button" class="cancelbutton">cancel</button>
+       <span class=psw> new user? <a href="registration.html">register here</a></span>
+       </div>
+       </form>    
+        <script src="userlogin.js"></script>
+      
+</body>
+</html>

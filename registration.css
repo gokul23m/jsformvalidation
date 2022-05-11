@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+     background-image: url('https://previews.123rf.com/images/osaba/osaba1705/osaba170500026/78604345-top-vifice-desk-background-the-applying-for-a-job-form-and-pen-pencil-eyeglasses-tree-.jpg');
+   
+}
+.container{
+   width: 62%;
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.header{
+    text-align: center;
+    font-size: 30px;
+    font-weight: 800;
+}
+.formcontrol{
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+input{
+    margin-left: 10px;
+    margin-right: 10px;
+    border: 1px solid #ccc;
+    border-color: none;
+}
+
+#buttons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#submit{
+    width: 100px;
+    font-size: 20px;
+    background-color: yellow;
+}
+#clear{
+    width: 100px;
+    font-size: 20px;
+    background-color: red;
+}
+#submit:hover{
+    opacity: 0.5;
+}
+#clear:hover{
+    opacity: 0.5;
+}
+.formcontrol small{
+    visibility: hidden;
+    color: red;
+}
+.formcontrol i{
+    visibility: hidden;
+}
+.formcontrol .success input{
+          border-color: green;
+}
+.formcontrol.error input{
+    border-color: red;
+}
+.formcontrol.success i.fa-check-circle{
+    color: green;
+    visibility: visible;
+}
+.formcontrol.error i.fa-exclamation-circle{
+    color:red;
+    visibility: visible;
+}
+.formcontrol.error small{
+    visibility: visible;
+}
